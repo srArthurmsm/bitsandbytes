@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="bit.js" defer></script>
+    <title>Bits</title>
+</head>
+<body>
+    <a href="index.html">Bits e bytes</a>
+    <a href="rede.html">Rede</a>
+    <a href="Nets.html">Nets</a>
+    <h1>Bits e bytes</h1>
+    <h2>O que é um bit</h2>
+    <p>O bit é a menor unidade de informação que pode ser armazenada ou transmitida, usada na Computação e na Teoria da Informação. Um bit pode assumir somente 2 valores: 0 ou 1, corte ou passagem de energia, respectivamente</p>
+    <h2>O que é um byte</h2>
+    <p>Um byte, é um dos tipos de dados integrais em computação. É usado com frequência para especificar o tamanho ou quantidade da memória ou da capacidade de armazenamento de um certo dispositivo, independentemente do tipo de dados.</p>
+    <h2>conversão de bits</h2>
+    <h3>bytes - kbps</h3>
+    <input type="number" placeholder="bytes" id="bit"><input type="number" placeholder="kbps" id="kbit"><br>
+    <button onclick="bitok()">calcurar</button>
+    <div id="resposta1"></div>
+    <h3>kbps - mbps</h3>
+    <input type="number" placeholder="kbps" id="2kbit"><input type="number" placeholder="mbps" id="mbit"><br>
+    <button onclick="kbitom()">calcurar</button>
+    <div id="resposta2"></div>
+    <h3>mbps - gbps</h3>
+    <input type="number" placeholder="mbps" id="2mbit"><input type="number" placeholder="gbps" id="gbit"><br>
+    <button onclick="mbitstog()">calcurar</button>
+    <div id="resposta3"></div>
+    <h3>gbps - tbps</h3>
+    <input type="number" placeholder="gbps" id="2gbit"><input type="number" placeholder="tbps" id="tbit"><br>
+    <button onclick="gbitstot()">calcurar</button>
+    <div id="resposta4"></div>
+    <img src="images.jfif" alt="">
+</body>
+</html>
